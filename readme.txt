@@ -1,0 +1,1 @@
+My micro practices learning the fundamentals of JavaScript
