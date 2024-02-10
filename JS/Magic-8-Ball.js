@@ -35,7 +35,12 @@ switch (randomNumber) {
     break;
 }
 
-//in case you want to check the value of the random number
-//console.log(randomNumber)
+// in case you want to check the value of the random number
+console.log("the value of the random number: " + randomNumber);
 
-console.log(eightBall);
+// if you want to console log the answer:
+console.log("the message: " + eightBall);
+
+//if you want to show the answer on the web page:
+let outputMessage = document.getElementById("magicBallMessage");
+outputMessage.innerText = eightBall;
