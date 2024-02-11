@@ -3,15 +3,17 @@ randomNumber = Math.floor(Math.random() * 8);
 eightBall = "";
 switch (randomNumber) {
   case 0:
-    eightBall = "It is certain";
+    eightBall =
+      "You know, I've got a better idea. How about you shake me up, and whatever answer I give, we both just pretend it's profound?";
     break;
 
   case 1:
-    eightBall = "It is decidedly so";
+    eightBall =
+      "You're looking for wisdom in a ball? Might as well ask a kangaroo to balance your checkbook while you're at it";
     break;
 
   case 2:
-    eightBall = "Reply hazy try again";
+    eightBall = "Thanks to ChatGPT for generating this nonsense";
     break;
 
   case 3:
@@ -31,7 +33,7 @@ switch (randomNumber) {
     break;
 
   case 7:
-    eightBall = "Signs point to yes";
+    eightBall = "Just do it (or not)";
     break;
 }
 
