@@ -22,6 +22,8 @@ header{
     padding: 60px 100px 60px 100px;
     background-color: #1f2937;
     color: white;
+    box-shadow: #00000078 0px 0px 10px 0px;
+
 }
 
 section{
@@ -30,10 +32,11 @@ section{
 
 .section-white{
     background-color: white;
+    box-shadow: #00000078 0px 0px 10px 0px;
 }
 
 .section-grey{
-    background-color: #e5e7eb;
+    background-color: #f4f4f4;
     list-style: none;
 }
 
@@ -66,6 +69,15 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0px;
+    display: flex;
+}
+
+.social-media-icons{
+    display: flex;
+}
+
+.icons{
+    margin-right: 5px;
 }
 
 h1{
