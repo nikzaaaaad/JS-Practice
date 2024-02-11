@@ -51,9 +51,9 @@ section{
     border: solid #3782f6;
     border-width: 2px;
     border-radius: 5%;
-    padding: 20px;
+    padding: 10px;
     width: 130px;
-    height: 50px;
+    height: 130px;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -70,6 +70,7 @@ footer {
     width: 100%;
     bottom: 0px;
     display: flex;
+    flex-direction: row;
 }
 
 .social-media-icons{
