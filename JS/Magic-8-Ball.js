@@ -43,4 +43,4 @@ console.log("the message: " + eightBall);
 
 //if you want to show the answer on the web page:
 let outputMessage = document.getElementById("magicBallMessage");
-outputMessage.innerText = eightBall;
+outputMessage.innerText = `\"${eightBall}\"`;
